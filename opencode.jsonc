@@ -17,7 +17,7 @@
 				"chrome-devtools-mcp@latest",
 				"--no-usage-statistics",
 				"--executablePath",
-				"/usr/bin/chromium-browser",
+				"/usr/bin/chromium",
 				"--headless"
 			]
 		},

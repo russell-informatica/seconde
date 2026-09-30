@@ -6,3 +6,8 @@ dist
 .remote-assets
 components.d.ts
 .code-graph/
+
+# `theme/` and `addons/` are separate git repositories, consumed by this deck
+# as npm git dependencies (see package.json). They are intentionally untracked.
+theme/
+addons/

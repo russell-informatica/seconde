@@ -1,11 +1,9 @@
 ---
-theme: default
+theme: slidev-theme-seconde
+addons:
+  - slidev-addon-seconde
 title: Informatica 2c
 author: Marini Mattia
-fonts:
-  sans: iA Writer Quattro
-  mono: Fira Code
-  provider: none
 info: |
   Marini Mattia - a.s. 2026/2027
 
