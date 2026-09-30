@@ -414,14 +414,12 @@ class: table-sm
 
 Controlla se il numero `15` è presente nella lista. Usa un `while` con una variabile booleana `trovato`: appena trovi il numero, il ciclo deve fermarsi.
 
-::left::
 
 | Input                     | Output           |
 | ------------------------- | ---------------- |
 | `[4, 8, 15, 16, 23, 42]`  | `Trovato: True`  |
 | `[1, 2, 3]`               | `Trovato: False` |
 
-::right::
 
 > **Nota** Senza usare `in`. Nella condizione del `while` combina due controlli con `and`.
 
@@ -492,14 +490,12 @@ class: table-sm
 
 Verifica se **tutti** i numeri della lista sono pari. Se almeno uno è dispari, il risultato è falso.
 
-::left::
 
 | Input                | Output                               |
 | -------------------- | ------------------------------------ |
 | `[2, 4, 6, 8, 10]`   | `La lista contiene solo numeri pari` |
 | `[2, 4, 5]`          | `C'è almeno un numero dispari`       |
 
-::right::
 
 > **Nota** Parti da `tutti_pari = True` e portalo a `False` quando trovi un dispari.
 
@@ -648,7 +644,10 @@ layout: two-cols-header
 class: table-sm
 ---
 
-# Esercizio 18 — Elementi in comune
+# Esercizio 18 — Elementi in comune v1
+<div class="text-[var(--c-text-muted)]">
+Versione 2: liste NON ordinate
+</div>
 
 Date due liste, crea una terza lista con solo gli elementi presenti in **entrambe**.
 
@@ -684,17 +683,18 @@ layout: two-cols-header
 class: table-sm
 ---
 
-# Esercizio 19 — Elementi in comune (liste ordinate)
+# Esercizio 19 — Elementi in comune v2
+<div class="text-[var(--c-text-muted)]">
+Versione 2: liste ordinate
+</div>
 
-Come l'esercizio 18, ma le due liste sono **ordinate**: ogni elemento può essere letto **una sola volta**.
+Come l'esercizio 18, ma le due liste sono **ordinate**: ogni elemento può essere letto **una sola volta**. Come mai questo algoritmo è molto meglio del precedente?
 
-::left::
 
 | Input                           | Output   |
 | ------------------------------- | -------- |
 | `[1, 2, 3, 4]` e `[3, 4, 5, 6]` | `[3, 4]` |
 
-::right::
 
 > **Nota** Usa due indici: se gli elementi sono uguali li salvi e avanzi entrambi; se uno è più piccolo avanzi solo quello.
 
@@ -729,15 +729,14 @@ class: table-sm
 
 # Esercizio 20 — Selection sort in una funzione
 
-Scrivi una funzione `ordina(lista)` che ordini una lista di interi in ordine crescente con il **selection sort**: a ogni passo cerca il minimo della parte non ordinata e lo scambia con il primo elemento di quella parte.
+Scrivi un algoritmo che ordini una **lista di interi** in ordine crescente con il noto algoritmo [selection sort](https://it.wikipedia.org/wiki/Selection_sort); a ogni passo cerca il minimo della parte non ordinata e lo scambia con il primo elemento di quella parte.
 
-::left::
 
 | Input             | Output            |
 | ----------------- | ----------------- |
 | `[5, 3, 8, 1, 9]` | `[1, 3, 5, 8, 9]` |
 
-::right::
+
 
 > **Consiglio** Usa due cicli annidati: quello esterno fissa la posizione `i`, quello interno cerca l'indice del minimo tra `i` e la fine della lista.
 

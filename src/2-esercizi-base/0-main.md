@@ -1,0 +1,14 @@
+---
+theme: slidev-theme-seconde
+addons:
+  - slidev-addon-seconde
+title: Informatica 2c
+author: Marini Mattia
+info: |
+  Marini Mattia - a.s. 2026/2027
+
+drawings:
+  persist: false
+comark: true
+src: ./1-esercizi.md
+---
