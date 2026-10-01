@@ -11,13 +11,13 @@ A [Slidev](https://sli.dev) presentation (Slidev 53 + Vue 3).
 
 The deck consumes two sibling git repos, installed as npm git dependencies (see `package.json`). They are intentionally untracked here (`.gitignore`).
 
-- `theme/` → `slidev-theme-seconde` — all CSS + the global layers. Auto-loaded by Slidev:
+- `theme/` → `slided-theme-russell` — all CSS + the global layers. Auto-loaded by Slidev:
   - `styles/index.ts` — imports the Slidev base layouts, the `baseline.css` inherited from `@slidev/theme-default`, the bundled fonts, then `theme.css`.
   - `styles/theme.css` — design tokens live in `:root` / `html.dark` (`--c-*`, `--slidev-theme-primary`). Helper classes: `.box`, `.badge` (+ `.badge-accent`, `.badge-round`), `.eyebrow`. Indented with tabs.
   - `global-top.vue` — persistent `topic:` kicker; `global-bottom.vue` — footer rendered on every slide (author + `page / total`).
 - `addons/` → `slidev-addon-seconde` — `components/*.vue` usable in slides with no import (e.g. `<Badge round>vs</Badge>`, `<Counter />`).
 
-The deck opts in from headmatter: `theme: slidev-theme-seconde` and `addons: [slidev-addon-seconde]`. Slide content still auto-loads `snippets/` from this repo.
+The deck opts in from headmatter: `theme: slided-theme-russell` and `addons: [slidev-addon-seconde]`. Slide content still auto-loads `snippets/` from this repo.
 
 ## Directives
 - NEVER run chromium with shell to test; use chrome-devtools and attach to `http://localhost:3030`. The instance will be already running

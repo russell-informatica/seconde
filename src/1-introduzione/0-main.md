@@ -1,5 +1,5 @@
 ---
-theme: slidev-theme-seconde
+theme: slided-theme-russell
 addons:
   - slidev-addon-seconde
 title: Informatica 2c
