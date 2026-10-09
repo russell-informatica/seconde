@@ -1,7 +1,15 @@
 ---
-layout: image-right
-image: ./assets/00.png
-topic: VS Code Web
+theme: slidev-theme-russell
+addons:
+  - slidev-addons-russell
+title: VS Code Web
+author: Marini Mattia
+info: |
+  Marini Mattia - a.s. 2026/2027
+drawings:
+  persist: false
+comark: true
+src: ./steps.md
 ---
 
 # Installare le estensioni
