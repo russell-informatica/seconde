@@ -11,4 +11,5 @@ drawings:
   persist: false
 comark: true
 src: ./1-esercizi.md
+presenter: dev
 ---
