@@ -1,7 +1,7 @@
 ---
 theme: slidev-theme-russell
 addons:
-  - slidev-addon-russell
+  - slidev-addons-russell
 title: VS Code Web
 author: Marini Mattia
 info: |

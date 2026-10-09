@@ -29,6 +29,7 @@
 	},
 
 	"permission": {
+		"allowed_paths": ["../theme", "../addons"],
 		"lsp": "allow"
 	}
 }
