@@ -2,7 +2,7 @@
 theme: slidev-theme-russell
 addons:
   - slidev-addons-russell
-title: Informatica 2c
+title: Esercizi python
 author: Marini Mattia
 info: |
   Marini Mattia - a.s. 2026/2027
@@ -10,6 +10,6 @@ info: |
 drawings:
   persist: false
 comark: true
-src: ./1-esercizi.md
 presenter: dev
+src: ./1-esercizi.md
 ---
